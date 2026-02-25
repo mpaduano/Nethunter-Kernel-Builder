@@ -4,15 +4,20 @@
       "repo": "lineage-23.1 https://github.com/LineageOS/android_kernel_oneplus_sm8150.git",
       "branch": "lineage-23.2",
       "device": "sm8150"
-    },
+     },
     "withKernelSU": false,
-    "toolchains": [ 
+    "toolchains": [
       {
-        "repo": "https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/",
+        "repo": "https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86",
         "branch": "main",
-        "name": "clang-r547379"
+        "name": "clang-r563880"
+      },
+      {
+        "repo": "https://github.com/kdrag0n/proton-clang.git",
+        "branch": "master",
+        "name": "clang"
       }
-    ]
+    ],
     "params": {
       "ARCH": "arm64",
       "CROSS_COMPILE": "aarch64-linux-gnu-",

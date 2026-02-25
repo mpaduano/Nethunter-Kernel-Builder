@@ -1,7 +1,7 @@
 [  {
     "kernelSource": {
       "name": "OnePlus 7t",
-      "repo": "lineage-23.1 https://github.com/LineageOS/android_kernel_oneplus_sm8150.git",
+      "repo": "https://github.com/LineageOS/android_kernel_oneplus_sm8150.git",
       "branch": "lineage-23.2",
       "device": "sm8150"
      },

@@ -1,9 +1,9 @@
 [  {
     "kernelSource": {
-      "name": "linux-kernel",
-      "repo": "https://github.com/yanhuo26/android_kernel_xiaomi_sdm845.git",
-      "branch": "udc",
-      "device": "sdm845"
+      "name": "OnePlus 7t",
+      "repo": "https://github.com/crdroidandroid/android_device_oneplus_sm8150-common",
+      "branch": "16.0",
+      "device": "hotdogb"
     },
     "withKernelSU": false,
     "toolchains": [

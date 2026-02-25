@@ -13,9 +13,9 @@
         "name": "gas"
       },
       {
-        "repo": "https://github.com/kdrag0n/proton-clang.git",
-        "branch": "master",
-        "name": "clang"
+        "repo": "https://github.com/steleman/llvm-21.1.4.git",
+        "branch": "main",
+        "name": "llvm-21.1.4"
       }
     ],
     "params": {

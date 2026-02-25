@@ -6,11 +6,13 @@
       "device": "sm8150"
     },
     "withKernelSU": false,
-    "toolchains": {
+    "toolchains": [ 
+      {
         "repo": "https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/",
         "branch": "main",
         "name": "clang-r547379"
-    }
+      }
+    ]
     "params": {
       "ARCH": "arm64",
       "CROSS_COMPILE": "aarch64-linux-gnu-",

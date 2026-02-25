@@ -57,7 +57,7 @@ jobs:
       - name: "🌟 Clone kernel source => (${{ env.kernelRepo }})"
         working-directory: ./${{ env.kernelDir }}
         run: |
-          git clone --recursive --branch $kernelBranch $kernelRepo $kernelName --depth=1
+          git clone --branch $kernelBranch $kernelRepo $kernelName
 
       - name: "💫 Get toolchains"
         working-directory: ./${{ env.kernelDir }}
